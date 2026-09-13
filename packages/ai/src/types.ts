@@ -24,7 +24,8 @@ export type KnownApi =
 	| "bedrock-converse-stream"
 	| "google-generative-ai"
 	| "google-vertex"
-	| "pi-messages";
+	| "pi-messages"
+	| "commandcode-generate";
 
 export type Api = KnownApi | (string & {});
 
@@ -42,6 +43,7 @@ export type KnownProvider =
 	| "azure-openai-responses"
 	| "openai-codex"
 	| "radius"
+	| "commandcode"
 	| "nvidia"
 	| "deepseek"
 	| "github-copilot"

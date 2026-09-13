@@ -5,6 +5,7 @@
 ### Added
 
 - Enabled native deferred tool loading for Fireworks Messages models. Use `ToolSearch` or `tool_search` as the loader name for prompt-prefix deferral ([#9323](https://github.com/earendil-works/pi/issues/9323)).
+- Added the Command Code provider with its full model catalog. Models are addressed through Command Code's OpenAI- and Anthropic-compatible `provider/v1` endpoints, and accounts whose plan excludes Provider API access fall back to the CLI's `/alpha/generate` transport automatically.
 
 ### Fixed
 
